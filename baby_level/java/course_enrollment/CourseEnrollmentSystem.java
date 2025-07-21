@@ -1,6 +1,9 @@
 // 7.20.2025
 // Topics: Class, Object, ArrayList, Scanner, Map, For Loop, If-Else
 
+
+
+
 import java.util.*;
 
 public class CourseEnrollmentSystem {
