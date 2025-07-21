@@ -64,7 +64,7 @@ public class CourseEnrollmentSystem {
                     break;
                 case 3:
                     System.out.println("Exiting..");
-                    break;
+                    return;
                 default:
                     System.out.println("\nInput invalid.");
             }
