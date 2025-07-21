@@ -56,7 +56,7 @@ public class CourseEnrollmentSystem {
                     if(root.containsKey(studentName)) {
                         Student student = root.get(studentName);
                         for(Course course : student.getCourses()) {
-                            System.out.println("* " + course.getCourseName() + " : " + course.getCourseUnits().toString());
+                            System.out.println("* " + course.getCourseName() + " : " + course.getCourseUnits());
                         }
                     } else { 
                         System.out.println("Student not found."); 
